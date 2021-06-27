@@ -150,7 +150,11 @@
     <ClCompile Include="Graphics\Screen.cpp" />
     <ClCompile Include="Graphics\ScreenBuffer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shapes\AARectangle.cpp" />
+    <ClCompile Include="Shapes\Circle.cpp" />
     <ClCompile Include="Shapes\Line2D.cpp" />
+    <ClCompile Include="Shapes\Shape.cpp" />
+    <ClCompile Include="Shapes\Triangle.cpp" />
     <ClCompile Include="Utils\Utils.cpp" />
     <ClCompile Include="Utils\Vec2D.cpp" />
   </ItemGroup>
@@ -158,7 +162,11 @@
     <ClInclude Include="Graphics\Color.h" />
     <ClInclude Include="Graphics\Screen.h" />
     <ClInclude Include="Graphics\ScreenBuffer.h" />
+    <ClInclude Include="Shapes\AARectangle.h" />
+    <ClInclude Include="Shapes\Circle.h" />
     <ClInclude Include="Shapes\Line2D.h" />
+    <ClInclude Include="Shapes\Shape.h" />
+    <ClInclude Include="Shapes\Triangle.h" />
     <ClInclude Include="Utils\Utils.h" />
     <ClInclude Include="Utils\Vec2D.h" />
   </ItemGroup>
