@@ -154,16 +154,19 @@
     <ClCompile Include="Input\InputController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Scenes\ArcadeScene.cpp" />
+    <ClCompile Include="Scenes\GameScene.cpp" />
     <ClCompile Include="Shapes\AARectangle.cpp" />
     <ClCompile Include="Shapes\Circle.cpp" />
     <ClCompile Include="Shapes\Line2D.cpp" />
     <ClCompile Include="Shapes\Shape.cpp" />
     <ClCompile Include="Shapes\Triangle.cpp" />
+    <ClCompile Include="Utils\FileCommandLoader.cpp" />
     <ClCompile Include="Utils\Utils.cpp" />
     <ClCompile Include="Utils\Vec2D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App\App.h" />
+    <ClInclude Include="Games\Game.h" />
     <ClInclude Include="Graphics\Color.h" />
     <ClInclude Include="Graphics\Screen.h" />
     <ClInclude Include="Graphics\ScreenBuffer.h" />
@@ -171,12 +174,14 @@
     <ClInclude Include="Input\InputAction.h" />
     <ClInclude Include="Input\InputController.h" />
     <ClInclude Include="Scenes\ArcadeScene.h" />
+    <ClInclude Include="Scenes\GameScene.h" />
     <ClInclude Include="Scenes\Scene.h" />
     <ClInclude Include="Shapes\AARectangle.h" />
     <ClInclude Include="Shapes\Circle.h" />
     <ClInclude Include="Shapes\Line2D.h" />
     <ClInclude Include="Shapes\Shape.h" />
     <ClInclude Include="Shapes\Triangle.h" />
+    <ClInclude Include="Utils\FileCommandLoader.h" />
     <ClInclude Include="Utils\Utils.h" />
     <ClInclude Include="Utils\Vec2D.h" />
   </ItemGroup>
