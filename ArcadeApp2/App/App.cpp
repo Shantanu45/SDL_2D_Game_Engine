@@ -2,7 +2,7 @@
 #include "SDL/SDL.h"
 #include "../Scenes/GameScene.h"
 #include "../Scenes/ArcadeScene.h"
-#include "../Games/BreakOut.h"
+#include "../Games/BreakOut/BreakOut.h"
 
 #include <iostream>
 #include <cassert>

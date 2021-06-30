@@ -66,7 +66,10 @@
     <ClCompile Include="Utils\FileCommandLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Games\BreakOut.cpp">
+    <ClCompile Include="Games\BreakOut\BreakOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Games\BreakOut\Excluder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -128,7 +131,13 @@
     <ClInclude Include="Utils\FileCommandLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Games\BreakOut.h">
+    <ClInclude Include="Games\BreakOut\BreakOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\BreakOut\Excluder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\BreakOut\BoundaryEdge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

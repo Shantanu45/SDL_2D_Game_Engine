@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "Game.h"
+#include "../Game.h"
 
 class BreakOut:public Game
 {
