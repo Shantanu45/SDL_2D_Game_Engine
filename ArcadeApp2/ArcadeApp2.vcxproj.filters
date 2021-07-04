@@ -72,6 +72,9 @@
     <ClCompile Include="Games\BreakOut\Excluder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Games\BreakOut\Paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\Color.h">
@@ -138,6 +141,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Games\BreakOut\BoundaryEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Games\BreakOut\Paddle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
